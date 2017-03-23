@@ -14,18 +14,18 @@ with Postgres and Rspec, and get it ready for development.
 3. Navigate into new app
   $ cd {app}
 
-5. Set up git
+4. Set up git
   $ git init
 
-6. Set up Github and make first commit
+5. Set up Github and make first commit
   copy/paste from Github to create remote repo
   $ git add .
   $ git commit -m "Initial commit"
 
-7. Open app in favorite text editor.
+6. Open app in favorite text editor.
   $ atom .
 
-9. Set up preferred test and development gems:
+7. Set up preferred test and development gems:
 
   source 'https://rubygems.org'
 
@@ -64,7 +64,7 @@ with Postgres and Rspec, and get it ready for development.
   	gem 'pg'
   end
 
-10. Edit config/database.yml with preferred database and database names
+8. Edit config/database.yml with preferred database and database names
     adapter: postgresql
 
   default: &default
@@ -85,12 +85,12 @@ with Postgres and Rspec, and get it ready for development.
     pool: 5
     timeout: 5000
 
-11. Create Database
+9. Create Database
   $ rails db:create  #rake db:create still works too!!!
 
-12. Install rspec
+10. Install rspec
   $ rails generate rspec:install
 
-13. Commit set up 
+11. Commit set up 
   $ git add .
   $ git commit -m "Set up app with development gems, rspec, and pg"
