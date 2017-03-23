@@ -3,10 +3,10 @@
 This would document whatever steps are necessary in creating a new Ruby app,
 with Postgres and Rspec, and get it ready for development.
 
-1. Navigate to where you want to create your app.
+1 Navigate to where you want to create your app.
   $ cd ~/Sites
 
-2. Create new repo/app without unit tests
+2 Create new repo/app without unit tests
   $ rails new {name} -T
   example: $ rails new {app} -T
   or if needing to a specific version of rails: $ rails _4.1.0_ new {app} -T
