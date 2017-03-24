@@ -78,7 +78,7 @@ Step 7: Set up preferred test and development gems:
   end
 
 Step 8: Install the Gems:
-  $Bundle install
+  $ bundle install
   
 Step 9: Edit config/database.yml with preferred database and database names
     adapter: postgresql
